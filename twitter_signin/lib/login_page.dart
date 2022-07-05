@@ -37,10 +37,14 @@ class _TwitterLoginPageState extends State<TwitterLoginPage> {
                 )
               ],
             ),
-            onPressed: () {},
+            onPressed: () {
+              login();
+            },
           ),
         ),
       ),
     );
   }
 }
+
+void login() {}
